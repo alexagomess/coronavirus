@@ -1,4 +1,20 @@
 Base de importação dos dados em tempo real.
-Fonte: Wikipedia.
+Fonte: Wikipedia e OMS - Organização Mundial da Saúde.
 
-https://docs.google.com/spreadsheets/d/1tWw1SrkF1ici9YQZEgz86u_SlAIEDnCIez6TOH7KHZ0/edit#gid=1565064710
+Base: https://bit.ly/2M8kncM
+Painel: https://bit.ly/3gsoTB3
+
+Nessa base contém:
+ - Fonte extraída automaticamente do Wikipedia com os casos e fatalidades do Coronavírus;
+ - Base de países com a população de habitantes;
+ - De/Para dos países (os países estão em inglês na fonte de casos confirmados e a base de população estão com os países em portugês);
+ - Base que o dashboard está consumindo, nele contém alguns indicadores extraídos da fonte e outros sendo calculados;
+ 
+ O IMPORTHTML do Google Sheets atualiza de forma automática sempre que os dados do Wikipédia mudam e o Google Data Studio atualiza a cada 15min.
+ Dessa forma o painel permanece sempre atualizado sem intervenção manual.
+
+
+
+
+
+
